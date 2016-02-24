@@ -8,8 +8,6 @@
 // if not, parse username/password
 // based on https://gist.github.com/dzuelke/972386
 
-require('/lib/password.php');
-
 function big_random_int( $len = 18 ) {
     $rand   = '';
     while( !( isset( $rand[$len-1] ) ) ) {
@@ -140,5 +138,3 @@ if (isset($_COOKIE['test_session']) && trim($_COOKIE['test_session']) != '') { /
 } else if (isset($login_required) && $login_required == true) {
 	header('Location: login.php');
 }
-
-?>

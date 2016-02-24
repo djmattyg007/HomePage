@@ -23,7 +23,6 @@ if (trim($_POST['p1']) != trim($_POST['p2'])) {
 }
 
 require_once('dbconn_mysql.php');
-require('/lib/password.php');
 
 // ok, make a new user
 $new_user_email_db = "'".$mysqli->escape_string(trim($_POST['e']))."'";
@@ -49,5 +48,3 @@ if (!$new_user_row) {
 $new_user_id = $mysqli->insert_id;
 
 header('Location: login.php?register_success');
-
-?>
