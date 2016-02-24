@@ -1,0 +1,82 @@
+{
+    "settings":{
+        "greetings":{
+            "is_time_greeting_on": true,
+            "greeting": "Home :)",
+            "morning":"Good Morning",
+            "afternoon": "Good Afternoon",
+            "evening": "Good Evening",
+            "night": "Good Night"
+        },
+        "timezone": "UTC"
+    },
+    "link_settings":[
+        {
+          "group_label":"General",
+          "links":[
+             {
+                "link_label":"Google",
+                "link_url":"https://www.google.com/"
+             },
+             {
+                "link_label":"Duck Duck Go",
+                "link_url":"https://www.duckduckgo.com/"
+             },
+             {
+                "link_label":"Gmail",
+                "link_url":"https://www.gmail.com/"
+             },
+             {
+                "link_label":"Wikipedia",
+                "link_url":"https://www.wikipedia.org/"
+             }
+          ]
+       },
+        {
+          "group_label":"Social",
+          "links":[
+             {
+                "link_label":"Facebook",
+                "link_url":"https://www.facebook.com/"
+             },
+             {
+                "link_label":"Reddit",
+                "link_url":"https://www.reddit.com/"
+             },
+             {
+                "link_label":"4chan",
+                "link_url":"https://www.4chan.org/"
+             },
+             {
+                "link_label":"Twitter",
+                "link_url":"https://twitter.com/"
+             }
+          ]
+       },
+       {
+          "group_label":"Media",
+          "links":[
+             {
+                "link_label":"Youtube",
+                "link_url":"https://www.youtube.com/"
+             },
+             {
+                "link_label":"Twitch",
+                "link_url":"https://www.twitch.com/"
+             },
+             {
+                "link_label":"PirateBay",
+                "link_url":"https://thepiratebay.se/"
+             },
+             {
+                "link_label":"KAT",
+                "link_url":"https://www.kat.cr/"
+             },
+             {
+                "link_label":"Netflix",
+                "link_url":"https://www.netflix.com/"
+             }
+          ]
+       }
+   ]
+}

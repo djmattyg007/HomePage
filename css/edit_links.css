@@ -1,0 +1,94 @@
+.link_table {
+    border-collapse: separate;
+    border-spacing: 35px 5px;
+    margin-top:  20px;
+}
+
+.link_table tbody tr td select{
+    width: 150px;
+    height: 160px;
+}
+
+.link_table tbody tr td input{
+    width: 250px;
+}
+
+.save_button_p{
+    text-align:center;
+}
+
+.section_header{
+    text-align: center;
+    margin-top:  70px;
+}
+
+.txtStyleText{
+    width: 700px;
+    height: 550px;
+}
+
+.txtGreetingTextBox{
+    width: 350px;
+}
+
+.greeting_text_table{
+    width: 500px;
+    margin: auto;
+}
+
+/*
+ON/OFF Switch
+https://proto.io/freebies/onoff/
+*/
+.onoffswitch {
+    position: relative; width: 123px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+    margin: auto;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 13px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 16px; padding: 0; line-height: 16px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "Time Based";
+    padding-left: 10px;
+    background-color: #dc8c96; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "General";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 14px; margin: 1px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 103px;
+    border: 2px solid #999999; border-radius: 13px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+/*https://ace.c9.io/#nav=embedding*/
+#editor { 
+    width: 700px;
+    height: 550px;
+}

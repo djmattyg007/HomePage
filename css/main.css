@@ -1,0 +1,41 @@
+body{
+    margin:0 auto;
+    max-width:700px;
+    line-height:1.6;
+    font-size:18px;
+    color:#444;
+    padding:0 10px;
+    
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+h1,h2,h3{
+    line-height:1.2
+}
+
+.top_header{
+    text-align: center;
+}
+
+.loginoutText{
+    text-align: right;
+    margin-bottom: 27px;
+    margin-top: 0px;
+    font-size: 13px;
+}
+
+.loginoutText a{
+    margin-right: 10px;
+}
+
+.login-prompt{
+    margin: auto;
+    width: 200px;
+    top: 40%;
+    position: relative;
+}

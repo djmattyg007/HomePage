@@ -1,0 +1,15 @@
+.loginoutText{
+    position: absolute !important;
+    right: 30px !important;
+    margin-top: 0px !important;
+    
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif !important;
+	font-size: 14px !important;
+	font-style: normal !important;
+	font-variant: normal !important;
+	font-weight: 400 !important;
+}
+
+.loginoutText a{
+    margin-left: 10px !important;
+}
